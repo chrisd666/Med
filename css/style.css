@@ -78,21 +78,20 @@ footer {
 
 .collegePage {
   margin-top: 60px; }
-  .collegePage .top {
-    height: 250px; }
-    .collegePage .top .container-fluid {
-      background-color: rgba(0, 0, 0, 0.5);
-      height: 250px; }
-      .collegePage .top .container-fluid .content1 {
-        padding-top: 30px;
-        padding-left: 25px; }
-        .collegePage .top .container-fluid .content1 img {
-          width: 100px;
-          height: 100px;
-          border-radius: 100%; }
-        .collegePage .top .container-fluid .content1 .content2 {
-          float: right;
-          padding-right: 125px; }
+  .collegePage .top .container-fluid {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%; }
+    .collegePage .top .container-fluid .content1 {
+      display: flex;
+      flex-wrap: wrap; }
+      .collegePage .top .container-fluid .content1 img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin: 20px 40px 20px 10px; }
+      .collegePage .top .container-fluid .content1 .content2 {
+        max-width: 700px;
+        margin: 20px 0; }
 
 .about {
   padding-top: 20px;
