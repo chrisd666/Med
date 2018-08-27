@@ -4,6 +4,7 @@ $primary-color: #13637f;
 $dark-overlay: rgba(0, 0, 0, 0.2);
 $dark-overlay2: rgba(0, 0, 0, 0.2);
 body {
+	height: 100%;
 	background: $bg-color;
 	color: $font-color;
 }
@@ -94,7 +95,9 @@ body {
 
 //FOOTER
 footer {
+	margin-top: -150px;
 	background-color: #1a1a1a;
+	height: 150px;
 }
 
 //COLLEGE
@@ -158,9 +161,4 @@ footer {
 	#syllabusTitle {
 		padding-top: 100px;
 	}
-}
-
-//REGISTER
-.form {
-	width: 70%;
 }
