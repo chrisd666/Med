@@ -3,6 +3,7 @@ $font-color: #fff;
 $primary-color: #13637f;
 $dark-overlay: rgba(0, 0, 0, 0.2);
 $dark-overlay2: rgba(0, 0, 0, 0.2);
+
 body {
 	height: 100%;
 	background: $bg-color;
@@ -14,10 +15,12 @@ body {
 	background-color: #27c6ff;
 	border-bottom: $primary-color 3px solid;
 	opacity: 0.9;
+
 	.container {
 		.navbar-toggler {
 			border-color: blue;
 		}
+
 		.collapse {
 			ul {
 				li {
@@ -32,20 +35,23 @@ body {
 
 //HOME
 #home-section {
-	background: url('../img/jumbotron.jpg') no-repeat;
+	background: url("../img/jumbotron.jpg") no-repeat;
 	background-size: cover;
 	background-position: center bottom;
 	background-attachment: fixed;
 	height: 100vh;
+
 	.dark-overlay {
 		background-color: $dark-overlay;
 		position: absolute;
 		width: 100%;
 		height: 100%;
+
 		.home-inner {
 			padding-top: 150px;
 			height: 100%;
 			display: flex;
+
 			.container {
 				margin: auto;
 			}
@@ -54,16 +60,19 @@ body {
 }
 
 #col-content {
-	background: url('../img/colleges.jpeg') no-repeat;
+	background: url("../img/colleges.jpeg") no-repeat;
 	background-size: cover;
 	background-position: 40% 18%;
 	height: 50vh;
+
 	a {
 		text-decoration-color: #fff;
+
 		.dark-overlay2 {
 			background-color: $dark-overlay2;
 			width: 100%;
 			height: 100%;
+
 			h1,
 			p {
 				color: #fff;
@@ -73,18 +82,22 @@ body {
 }
 
 #res-content {
-	background: url('../img/resources.jpg') no-repeat;
+	margin-bottom: 150px;
+	background: url("../img/resources.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 40%;
 	height: 50vh;
 	border-bottom: $primary-color 3px solid;
+
 	a {
 		text-decoration-color: #fff;
 		color: #fff;
+
 		.dark-overlay2 {
 			background-color: $dark-overlay2;
 			width: 100%;
 			height: 100%;
+
 			h1,
 			p {
 				color: #fff;
@@ -102,20 +115,26 @@ footer {
 
 //COLLEGE
 #collegeTab {
+	margin-bottom: 150px;
+
 	#widthPos {
 		width: 90%;
 		margin: auto;
+
 		nav {
 			padding-top: 75px;
 		}
 	}
+
 	.tabHead {
 		width: 90%;
 		margin: auto;
 	}
+
 	table {
 		width: 90%;
 		margin: auto;
+
 		thead {
 			tr {
 				th {
@@ -129,19 +148,24 @@ footer {
 //COLLEGE PAGES
 .collegePage {
 	margin-top: 60px;
+	margin-bottom: 150px;
+
 	.top {
 		.container-fluid {
 			background-color: rgba(0, 0, 0, 0.5);
 			height: 100%;
+
 			.content1 {
 				display: flex;
 				flex-wrap: wrap;
+
 				img {
 					width: 100px;
 					height: 100px;
 					border-radius: 100%;
 					margin: 20px 40px 20px 10px;
 				}
+
 				.content2 {
 					max-width: 700px;
 					margin: 20px 0;
@@ -154,11 +178,4 @@ footer {
 .about {
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-//RESOURCES
-#collegeTab {
-	#syllabusTitle {
-		padding-top: 100px;
-	}
 }
