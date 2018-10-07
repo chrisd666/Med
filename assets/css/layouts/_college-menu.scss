@@ -1,0 +1,31 @@
+//COLLEGE
+#collegeTab {
+    margin-bottom: 150px;
+
+    #widthPos {
+        width: 90%;
+        margin: auto;
+
+        nav {
+            padding-top: 75px;
+        }
+    }
+
+    .tabHead {
+        width: 90%;
+        margin: auto;
+    }
+
+    table {
+        width: 90%;
+        margin: auto;
+
+        thead {
+            tr {
+                th {
+                    padding-right: 50%;
+                }
+            }
+        }
+    }
+}

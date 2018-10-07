@@ -1,0 +1,21 @@
+#col-content {
+    background: url("../img/colleges.jpeg") no-repeat;
+    background-size: cover;
+    background-position: 40% 18%;
+    height: 50vh;
+
+    a {
+        text-decoration-color: #fff;
+
+        .dark-overlay2 {
+            background-color: $dark-overlay2;
+            width: 100%;
+            height: 100%;
+
+            h1,
+            p {
+                color: #fff;
+            }
+        }
+    }
+}

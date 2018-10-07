@@ -1,0 +1,24 @@
+#res-content {
+    margin-bottom: 150px;
+    background: url("../img/resources.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    height: 50vh;
+    border-bottom: $primary-color 3px solid;
+
+    a {
+        text-decoration-color: #fff;
+        color: #fff;
+
+        .dark-overlay2 {
+            background-color: $dark-overlay2;
+            width: 100%;
+            height: 100%;
+
+            h1,
+            p {
+                color: #fff;
+            }
+        }
+    }
+}

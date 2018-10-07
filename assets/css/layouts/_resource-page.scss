@@ -1,0 +1,31 @@
+#resources {
+    height: 100%;
+
+    .container {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            width: 300px;
+            margin: 20px;
+
+            .card-title {
+                width: 75%;
+                margin-right: 0;
+                display: inline-block;
+            }
+
+            .fas {
+                color: #343a40;
+            }
+        }
+
+        .nav-item {
+            border-bottom: 1px solid #343a40;
+        }
+
+    }
+
+}

@@ -71,13 +71,21 @@
     </nav>
     <section id="signup">
         <div class="container">
-            <form action="">
+          <div class="card">
+            <div class="card-head">
+              Register
+            </div>
+            <div class="card-body">
+              <form action="">
                 <input class="form-control" type="text" name="fname" placeholder="First Name...">
                 <input class="form-control" type="text" name="lname" placeholder="Last Name...">
                 <input class="form-control" type="email" name="email" placeholder="Email...">
                 <input class="form-control" type="password" name="pwd_1" placeholder="Enter Password...">
                 <input class="form-control" type="password" name="pwd_2" placeholder="Renter Password...">
             </form>
+            </div>
+          </div>
+            
         </div>
     </section>
     

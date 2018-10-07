@@ -1,0 +1,22 @@
+//NAVIGATION
+.navbar {
+    background-color: #27c6ff;
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.9;
+
+    .container {
+        .navbar-toggler {
+            border-color: blue;
+        }
+
+        .collapse {
+            ul {
+                li {
+                    a {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
