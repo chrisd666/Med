@@ -3,4 +3,9 @@ footer {
     margin-top: -150px;
     background-color: #1a1a1a;
     height: 150px;
+
+    .container,
+    #footPos {
+        height: 100%;
+    }
 }

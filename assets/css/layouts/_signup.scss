@@ -1,16 +1,19 @@
-#signup {
-    height: 100vh;
+.registration {
+    margin-top: 100px;
+    margin-bottom: 200px;
 
-    form {
-        margin: {
-            left: auto;
-            right: auto;
-        }
+    #login,
+    #signup {
+        form {
+            margin: {
+                left: auto;
+                right: auto;
+            }
 
-        max-width: 500px;
-
-        .form-control {
-            margin-bottom: 10px;
+            .form-control {
+                margin-bottom: 20px;
+            }
         }
     }
+
 }

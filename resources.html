@@ -1,255 +1,234 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <title>Hello, world!</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1,
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
             shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-            integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-            crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
 
-        <!-- Icons -->
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <link rel="stylesheet" type="text/css"
-            href="resources.css/resources.style.css">
-    </head>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
 
-    <body id="home" class="bg-dark">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">Website</a>
-                <button class="navbar-toggler" data-toggle="collapse"
-                    data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#resources" class="nav-link">Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="colleges.html" class="nav-link">Colleges</a>
-                        </li>
-                        <div class="dropdown">
-                            <a class="btn btn-primary dropdown-toggle" href="#"
-                                role="button" id="dropdownMenuLink"
-                                data-toggle="dropdown">
-                                Log in
+<body id="home" class="bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Website</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resources.html" class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="colleges.html" class="nav-link">Colleges</a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="btn btn-primary dropdown-toggle" href="#"
+                            role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                            Log in
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <form class="px-4 py-3">
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email address
+                                    </label>
+                                    <input type="email" class="form-control" id="email"
+                                        placeholder="john@mail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">
+                                        Password
+                                    </label>
+                                    <input type="email" class="form-control" id="password"
+                                        placeholder="Password">
+                                </div>
+                                <div class="form-check pl-4">
+                                    <input type="checkbox" class="form-check-input"
+                                        id="dropdownCheck">
+                                    <label class="form-check-label pl-0" for="dropdownCheck">
+                                        Remember Me
+                                    </label>
+                                </div>
+                            </form>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                New around here? Sign up
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <form class="px-4 py-3">
-                                    <div class="form-group">
-                                        <label for="email">
-                                            Email address
-                                        </label>
-                                        <input type="email" class="form-control"
-                                            id="email"
-                                            placeholder="john@mail.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">
-                                            Password
-                                        </label>
-                                        <input type="email" class="form-control"
-                                            id="password"
-                                            placeholder="Password">
-                                    </div>
-                                    <div class="form-check pl-4">
-                                        <input type="checkbox"
-                                            class="form-check-input"
-                                            id="dropdownCheck">
-                                        <label class="form-check-label pl-0"
-                                            for="dropdownCheck">
-                                            Remember Me
-                                        </label>
-                                    </div>
-                                </form>
-                                <div class="dropdown-divider"></div>
-                                <a href="#" class="dropdown-item">
-                                    New around here? Sign up
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Forgot password?
-                                </a>
-                            </div>
+                            <a class="dropdown-item" href="#">
+                                Forgot password?
+                            </a>
                         </div>
-                    </ul>
-                </div>
+                    </div>
+                </ul>
             </div>
-        </nav>
-        <section id="resources">
-            <div class="container">
+        </div>
+    </nav>
+    <section id="resources">
+        <div class="container">
 
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid" src="../img/qpaper.jpg"
-                            alt="Question Papers">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Question Papers</h5>
-                        <button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarQP">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarQP">
-                            <ul class="navbar-nav text-center">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">First Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Second Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year I</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year II</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="img-fluid" src="../assets/img/qpaper.jpg" alt="Question Papers">
                 </div>
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid" src="../img/slides.jpg"
-                            alt="Slides">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Slides</h5>
-                        <button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarSlides">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarSlides">
-                            <ul class="navbar-nav text-center">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">First Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Second Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year I</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year II</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid" src="../img/xray.jpg"
-                            alt="X Rays">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">X Rays</h5>
-                        <button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarXray">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarXray">
-                            <ul class="navbar-nav text-center">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">First Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Second Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year I</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year II</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid" src="../img/instruments.jpg"
-                            alt="Instruments">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Instruments</h5>
-                        <button class="navbar-toggler" type="button"
-                            data-toggle="collapse"
-                            data-target="#navbarInstruments">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarInstruments">
-                            <ul class="navbar-nav text-center">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">First Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Second Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year I</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year II</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-top">
-                        <img class="img-fluid" src="../img/books.jpg"
-                            alt="Books">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Books</h5>
-                        <button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarBooks">
-                            <i class="fas fa-angle-down"></i>
-                        </button>
-                        <div class="collapse navbar-collapse"
-                            id="navbarBooks">
-                            <ul class="navbar-nav text-center">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">First Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Second Year</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year I</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Third Year II</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Question Papers</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarQP">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarQP">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">First Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Second Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year II</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="img-fluid" src="../assets/img/slides.jpg" alt="Slides">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Slides</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSlides">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSlides">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">First Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Second Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year II</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="img-fluid" src="../assets/img/xray.jpg" alt="X Rays">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">X Rays</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarXray">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarXray">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">First Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Second Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year II</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="img-fluid" src="../assets/img/instruments.jpg"
+                        alt="Instruments">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Instruments</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarInstruments">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarInstruments">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">First Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Second Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year II</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="img-fluid" src="../assets/img/books.jpg" alt="Books">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Books</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarBooks">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarBooks">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">First Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Second Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Third Year II</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--
     <footer>
         <div class="container pt-4 pb-4">
             <div id="footPos" class="row">
@@ -263,20 +242,17 @@
                 </div>
             </div>
         </div>
-    </footer> -->
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-            crossorigin="anonymous"></script>
-    </body>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
