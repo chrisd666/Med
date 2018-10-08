@@ -45,8 +45,7 @@
                   <label for="email">
                     Email address
                   </label>
-                  <input type="email" class="form-control" id="email"
-                    placeholder="john@mail.com">
+                  <input type="email" class="form-control" placeholder="john@mail.com">
                 </div>
                 <div class="form-group">
                   <label for="password">
@@ -81,18 +80,24 @@
 
     <section id="signup" class="mt-4">
       <div class="container">
+        <div class="errors bg-danger">
+
+        </div>
         <div class="card border-primary bg-dark">
           <div class="card-header">
             <h3>Register</h3>
           </div>
           <div class="card-body">
-            <form action="register.php" method="POST">
-              <input class="form-control" type="text" name="fname" placeholder="First Name...">
-              <input class="form-control" type="text" name="lname" placeholder="Last Name...">
-              <input class="form-control" type="email" name="email" placeholder="Email...">
-              <input class="form-control" type="password" name="pwd_1"
+            <form id="signup" action="register.php" method="POST">
+              <input id="fname" class="form-control" type="text" name="fname"
+                placeholder="First Name...">
+              <input id="lname" class="form-control" type="text" name="lname"
+                placeholder="Last Name...">
+              <input id="email" class="form-control" type="text" name="email"
+                placeholder="Email...">
+              <input id="pwd1" class="form-control" type="password" name="pwd_1"
                 placeholder="Enter Password...">
-              <input class="form-control" type="password" name="pwd_2"
+              <input id="pwd2" class="form-control" type="password" name="pwd_2"
                 placeholder="Renter Password...">
               <button type="submit" class="btn btn-primary">Signup</button>
             </form>
@@ -129,6 +134,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
     integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
     crossorigin="anonymous"></script>
+
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

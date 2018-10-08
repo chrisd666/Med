@@ -9,7 +9,8 @@
         justify-content: center;
 
         .card {
-            width: 300px;
+            max-width: 300px;
+
             margin: 20px;
 
             .card-title {

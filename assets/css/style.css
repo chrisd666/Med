@@ -37,6 +37,7 @@ footer #footPos {
   background-position: center bottom;
   background-attachment: fixed;
   height: 100vh;
+  border-bottom: 3px solid #13637f;
 }
 
 #home-section .dark-overlay {
@@ -63,6 +64,7 @@ footer #footPos {
   background-size: cover;
   background-position: 40% 18%;
   height: 50vh;
+  border-bottom: 3px solid #13637f;
 }
 
 #col-content a {
@@ -187,7 +189,7 @@ footer #footPos {
 }
 
 #resources .container .card {
-  width: 300px;
+  max-width: 300px;
   margin: 20px;
 }
 

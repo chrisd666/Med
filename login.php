@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -45,7 +47,7 @@
                                     <label for="email">
                                         Email address
                                     </label>
-                                    <input type="email" class="form-control" id="email"
+                                    <input type="email" class="form-control"
                                         placeholder="john@mail.com">
                                 </div>
                                 <div class="form-group">
@@ -80,16 +82,19 @@
     <section class="registration">
         <section id="login" class="mb-4">
             <div class="container">
+                <div class="error bg-danger">
+                    
+                </div>
                 <div class="card border-primary bg-dark">
                     <div class="card-header">
                         <h3>Login</h3>
                     </div>
                     <div class="card-body">
-                        <form action="">
-                            <input class="form-control" type="email" name="email"
-                                placeholder="Email...">
-                            <input class="form-control" type="password" name="pwd_1"
-                                placeholder="Enter Password...">
+                        <form id="login" action="signin.php" method="POST">
+                            <input id="email" class="form-control" type="email"
+                                name="email" placeholder="Email...">
+                            <input id="pwd1" class="form-control" type="password"
+                                name="pwd_1" placeholder="Enter Password...">
                             <button type="submit" class="btn btn-primary">Login</button>
                         </form>
                     </div>
@@ -127,6 +132,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
