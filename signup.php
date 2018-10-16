@@ -88,6 +88,11 @@
             <h3>Register</h3>
           </div>
           <div class="card-body">
+            <div class="errors">
+              <div class="alert-danger mb-4 rounded">
+
+              </div>
+            </div>
             <form id="signup" action="register.php" method="POST">
               <input id="fname" class="form-control" type="text" name="fname"
                 placeholder="First Name...">

@@ -37,21 +37,21 @@
         </div>
     </nav>
     <section class="collegePage">
-        <section class="top" style="background: url('../../assets/img/colleges/stock2.jpeg') no-repeat; background-size: cover; background-position: center;">
+        <section class="top" style="background: url('../../assets/img/colleges/stock3.jpeg') no-repeat; background-size: cover; background-position: center;">
             <div class="container-fluid">
                 <div class="content1">
                     <img src="../../assets/img/colleges/stock1logo.gif">
                     <div class="content2">
-                        <h3 class="text-uppercase">Dr. Shankarrao Chavan,
-                            Government Medical College</h3>
-                        <h6>Address: Vazirabad, Nanded, Maharashtra 431601</h6>
-                        <h6>Phone: 02462- 229274,229275; 02462- 229276; 02462-
-                            229272</h6>
-                        <!--<h6>Fax: 0240-2402418</h6>
-                        <h6>Email: acadgmca@hotmail.com, dean@gmcakola.in</h6>-->
+                        <h3 class="text-uppercase">Government Medical College,
+                            Akola</h3>
+                        <h6>Address: Collector Office Road, Near Ashok Vatika,
+                            Akola, Maharashtra 444001</h6>
+                        <h6>Phone: +91- 0724-2431960</h6>
+                        <h6>Fax: 0724-2437078</h6>
+                        <h6>Email: acadgmca@hotmail.com, dean@gmcakola.in</h6>
                         <h6>Website:
-                            <a href="www.drscgmcnanded.com/">
-                                www.drscgmcnanded.com/
+                            <a href="https://www.gmcakola.in/
+">https://www.gmcakola.in/
                             </a>
                         </h6>
                     </div>
@@ -63,38 +63,23 @@
                 <div class="about">
                     <h3>About</h3>
                     <hr>
-
+                    <p>
+                        Government Medical College, Akola is one of the high
+                        points of the Akola city. The
+                        attached teaching hospital - Survopchar Rugnalaya
+                        (Multispeciality hospital) was
+                        previously known as Main Hospital. It is situated near
+                        the Ashok Vaatika square.
+                    </p>
+                    <p>
+                        It has an intake capacity of 150 students each year.
+                        Mode of admission is through
+                        Maharashtra state level competitive examination
+                        'MHT-CET'.
+                    </p>
                 </div>
             </div>
         </section>
     </section>
-    <footer>
-        <div class="container pt-4 pb-4">
-            <div id="footPos" class="row">
-                <div id="copy" class="col-sm-6 text-center">
-                    <p>Copyright &copy 2018 - Website</p>
-                    <a href="#">Privacy</a>
-                </div>
-                <div id="contact" class="col-sm-6 text-center">
-                    <p>Contact</p>
-                    <a href="#">
-                        <img src="../../icons/facebook.svg">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+    
+    <?php include '../../footer.php' ?>
