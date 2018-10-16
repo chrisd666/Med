@@ -11,9 +11,13 @@
     <li class="nav-item">
       <a href="colleges.php" class="nav-link">Colleges</a>
     </li>
+
+    <!--
     <button type="button" class="btn btn-primary" href="#">
       Login/Signup
       </a>
+    </button>
+    -->
 
   </ul>
 </div>
@@ -26,10 +30,8 @@
     <div class="home-inner ">
       <div class="container">
         <div id="homePos" class="text-center">
-          <h1 class="display-4">Welcome to <strong>Website</strong>!</h1>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.</p>
+          <h1 class="display-4">Welcome to <strong>Medigyaan</strong>!</h1>
+          <h3>An online platform for medical study resources.</h3>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Hello, world!</title>
+  <title>Medigyaan</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
 <body id="home">
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
     <div class="container">
-      <a href="index.php" class="navbar-brand">Website</a>
+      <a href="index.php" class="navbar-brand"><h3>Medigyaan</h3></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>

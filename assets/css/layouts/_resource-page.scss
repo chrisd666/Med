@@ -1,9 +1,10 @@
 #resources {
     height: 100%;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
+    background: #00171F;
 
     .container {
-        margin-top: 100px;
+        padding-top: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

@@ -1,9 +1,13 @@
 body {
   height: 100%;
-  background: #333;
+  background: #00171F;
   color: #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body hr {
+  border-top: 1px solid #fff;
 }
 
 .navbar {
@@ -24,6 +28,7 @@ footer {
   margin-top: -150px;
   background-color: #1a1a1a;
   height: 150px;
+  border-top: 3px solid #13637f;
 }
 
 footer .container,
@@ -110,7 +115,7 @@ footer #footPos {
 }
 
 #collegeTab {
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
 #collegeTab #widthPos {
@@ -173,11 +178,12 @@ footer #footPos {
 
 #resources {
   height: 100%;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
+  background: #00171F;
 }
 
 #resources .container {
-  margin-top: 100px;
+  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

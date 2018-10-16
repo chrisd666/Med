@@ -54,30 +54,37 @@ $(document).ready(function () {
 
     //LOGIN
 
-    $('form#login').submit(function (e2) {
+    $('form#log').submit(function (e2) {
         e2.preventDefault();
         let email = $('#email').val();
         let pwd1 = $('#pwd1').val();
+        let error = [];
         let valid = true;
 
+        $('.errors').remove();
+
         if (email.length < 1) {
-            $('#email').before('<span class=".error bg-danger p-1">Please enter your Email</span>');
+            error.push('<span>Please enter your Email</span><br>');
             let valid = false;
         } else {
             let regEx = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             let validEmail = regEx.test(email);
             if (!validEmail) {
-                $('#email').before('<span class=".error bg-danger p-1">Please enter a valid Email</span>');
+                error.push('<span>Please enter a valid Email</span><br>');
                 let valid = false;
             }
         }
         if (pwd1.length < 1) {
-            $('#pwd1').before('<span class=".error bg-danger p-1">Please enter your Password</span>');
+            error.push('<span>Please enter your Password</span>');
             let valid = false;
         }
 
         if (valid) {
             this.submit();
+        } else {
+            $('.alert-danger').html(error);
+            $('.errors').show();
+            $('.alert-danger').css('padding', '20px');
         }
     });
 

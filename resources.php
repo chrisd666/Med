@@ -1,60 +1,37 @@
-<?php include 'header.php' ?>
+<!doctype html>
+<html lang="en">
 
+<head>
+  <title>Medigyaan | Resources</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.php" class="navbar-brand"><h3>Medigyaan</h3></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="resources.php" class="nav-link">Resources</a>
                         </li>
                         <li class="nav-item">
-                            <a href="resources.html" class="nav-link">Resources</a>
+                            <a href="colleges.php" class="nav-link">Colleges</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="colleges.html" class="nav-link">Colleges</a>
-                        </li>
-                        <div class="dropdown">
-                            <a class="btn btn-primary dropdown-toggle" href="#"
-                                role="button" id="dropdownMenuLink"
-                                data-toggle="dropdown">
-                                Log in
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <form class="px-4 py-3">
-                                    <div class="form-group">
-                                        <label for="email">
-                                            Email address
-                                        </label>
-                                        <input type="email" class="form-control"
-                                            id="email"
-                                            placeholder="john@mail.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">
-                                            Password
-                                        </label>
-                                        <input type="email" class="form-control"
-                                            id="password"
-                                            placeholder="Password">
-                                    </div>
-                                    <div class="form-check pl-4">
-                                        <input type="checkbox"
-                                            class="form-check-input"
-                                            id="dropdownCheck">
-                                        <label class="form-check-label pl-0"
-                                            for="dropdownCheck">
-                                            Remember Me
-                                        </label>
-                                    </div>
-                                </form>
-                                <div class="dropdown-divider"></div>
-                                <a href="#" class="dropdown-item">
-                                    New around here? Sign up
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Forgot password?
-                                </a>
-                            </div>
-                        </div>
                     </ul>
                 </div>
             </div>

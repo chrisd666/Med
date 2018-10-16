@@ -3,4 +3,8 @@ body {
     background: $bg-color;
     color: $font-color;
     box-sizing: border-box;
+
+    hr {
+        border-top: 1px solid #fff;
+    }
 }

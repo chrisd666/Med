@@ -58,15 +58,17 @@
     <section class="registration">
         <section id="login" class="mb-4">
             <div class="container">
-                <div class="error bg-danger">
-                    
-                </div>
                 <div class="card border-primary bg-dark">
                     <div class="card-header">
                         <h3>Login</h3>
                     </div>
                     <div class="card-body">
-                        <form id="login" action="signin.php" method="POST">
+                        <div class="errors">
+                            <div class="alert-danger mb-4 rounded">
+
+                            </div>
+                        </div>
+                        <form id="log" action="signin.php" method="POST">
                             <input id="email" class="form-control" type="text"
                                 name="email" placeholder="Email...">
                             <input id="pwd1" class="form-control" type="password"

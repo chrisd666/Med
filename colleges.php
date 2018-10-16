@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Hello, world!</title>
+  <title>Medigyaan | Colleges</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,23 +14,23 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body id="home">
-  <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
     <div class="container">
-      <a href="index.html" class="navbar-brand">Website</a>
+      <a href="index.php" class="navbar-brand"><h3>Medigyaan</h3></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#resources" class="nav-link">Resources</a>
+            <a href="resources.php" class="nav-link">Resources</a>
           </li>
-          <li class="nav-item">
-            <a href="#Colleges" class="nav-link">Colleges</a>
+          <li class="nav-item active">
+            <a href="colleges.php" class="nav-link">Colleges</a>
           </li>
         </ul>
       </div>
@@ -42,13 +42,13 @@
       <nav>
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" href="colleges.html">ROM</a>
+            <a class="nav-link active" href="colleges.php">ROM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="vidarbha.html">Vidarbha</a>
+            <a class="nav-link" href="vidarbha.php">Vidarbha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="marathwada.html">Marathwada</a>
+            <a class="nav-link" href="marathwada.php">Marathwada</a>
           </li>
         </ul>
       </nav>
@@ -68,98 +68,98 @@
           <tr>
             <th>1.</th>
             <td>
-              <a href="collegePages/ROM/Grant_Government_Medical_College.html">Grant
+              <a href="collegePages/ROM/Grant_Government_Medical_College.php">Grant
                 Government Medical College</a>
             </td>
           </tr>
           <tr>
             <th>2.</th>
             <td>
-              <a href="collegePages/ROM/Lokmanya_Tilak_Medical_College.html">Lokmanya
+              <a href="collegePages/ROM/Lokmanya_Tilak_Medical_College.php">Lokmanya
                 Tilak Medical College</a>
             </td>
           </tr>
           <tr>
             <th>3.</th>
             <td>
-              <a href="collegePages/ROM/Seth_G.S. _Medical_College.html">Seth
+              <a href="collegePages/ROM/Seth_G.S. _Medical_College.php">Seth
                 G. S. Medical College</a>
             </td>
           </tr>
           <tr>
             <th>4.</th>
             <td>
-              <a href="collegePages/ROM/Topiwala_National_Medical_College.html">Topiwala
+              <a href="collegePages/ROM/Topiwala_National_Medical_College.php">Topiwala
                 National Medical College</a>
             </td>
           </tr>
           <tr>
             <th>5.</th>
             <td>
-              <a href="collegePages/ROM/Rajiv_Gandhi_Medical_College.html">Rajiv
+              <a href="collegePages/ROM/Rajiv_Gandhi_Medical_College.php">Rajiv
                 Gandhi Medical College</a>
             </td>
           </tr>
           <tr>
             <th>6.</th>
             <td>
-              <a href="collegePages/ROM/B.J._Government_Medical_College.html">B.
+              <a href="collegePages/ROM/B.J._Government_Medical_College.php">B.
                 J. Government Medical College</a>
             </td>
           </tr>
           <tr>
             <th>7.</th>
             <td>
-              <a href="collegePages/ROM/Dr_Vaishampayam_Memorial_Govt_Medical_College.html">Dr.
+              <a href="collegePages/ROM/Dr_Vaishampayam_Memorial_Govt_Medical_College.php">Dr.
                 Vaishampayam Memorial Govt. Medical College</a>
             </td>
           </tr>
           <tr>
             <th>8.</th>
             <td>
-              <a href="collegePages/ROM/Government_Medical_College_Miraj.html">Government
+              <a href="collegePages/ROM/Government_Medical_College_Miraj.php">Government
                 Medical College, Miraj</a>
             </td>
           </tr>
           <tr>
             <th>9.</th>
             <td>
-              <a href="collegePages/ROM/Shri_Bhausaheb_Hire_Govt_Medical_College.html">Shri.
+              <a href="collegePages/ROM/Shri_Bhausaheb_Hire_Govt_Medical_College.php">Shri.
                 Bhausaheb Hire Govt. Medical College</a>
             </td>
           </tr>
           <tr>
             <th>10.</th>
             <td>
-              <a href="collegePages/ROM/R.C.S.M_Govt_Medical_College.html">R.
+              <a href="collegePages/ROM/R.C.S.M_Govt_Medical_College.php">R.
                 C. S. M. Govt. Medical College</a>
             </td>
           </tr>
           <tr>
             <th>11.</th>
             <td>
-              <a href="collegePages/ROM/K.J_Sommaiya_Medical_Trust.html">K. J.
+              <a href="collegePages/ROM/K.J_Sommaiya_Medical_Trust.php">K. J.
                 Sommaiya Medical Trust</a>
             </td>
           </tr>
           <tr>
             <th>12.</th>
             <td>
-              <a href="collegePages/ROM/MAEER_MIT's_MIMER_Medical_College.html">MAEER
+              <a href="collegePages/ROM/MAEER_MIT's_MIMER_Medical_College.php">MAEER
                 MIT's MIMER Medical College</a>
             </td>
           </tr>
           <tr>
             <th>13.</th>
             <td>
-              <a href="collegePages/ROM/Smt.Kashibai_Navle_Medical_College_&_General_Hospital.html">Smt.
+              <a href="collegePages/ROM/Smt.Kashibai_Navle_Medical_College_&_General_Hospital.php">Smt.
                 Kashibai Navle Medical College & General Hospital</a>
             </td>
           </tr>
           <tr>
             <th>14.</th>
             <td>
-              <a href="collegePages/ROM/Ashwini_Rural_Medical_College.html">Ashwini
+              <a href="collegePages/ROM/Ashwini_Rural_Medical_College.php">Ashwini
                 Rural Medical College</a>
             </td>
           </tr>
@@ -168,31 +168,4 @@
     </div>
   </section>
 
-  <footer>
-    <div class="container pt-4 pb-4">
-      <div id="footPos" class="row">
-        <div id="copy" class="col-sm-6 text-center">
-          <p>Copyright &copy 2017 - Website</p>
-          <a href="#">Privacy</a>
-        </div>
-        <div id="contact" class="col-sm-6 text-center">
-          <p>Contact</p>
-          <a href="#"><img src="icons/facebook.svg"></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+ <?php include 'footer.php' ?>
